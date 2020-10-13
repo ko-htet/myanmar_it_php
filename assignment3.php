@@ -17,7 +17,7 @@
         $res += $value;
     }
     $result = number_format($res);
-    
+
     echo "<h2>Total population  in all 10 cities</h2>";
     echo "<table border=1 cellpadding=10px>";
     echo "<tr><th>City</th><th>Population</th>";
