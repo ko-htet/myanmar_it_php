@@ -35,8 +35,8 @@
     echo "<h2>Order by City name</h2>";
     echo "<table border=1 cellpadding=10px>";
     echo "<tr><th>City</th><th>Population</th>";
-    foreach ($city  as $pkey => $pvalue) {
-        echo "<tr><td>$pkey</td><td>$pvalue</td></tr>";
+    foreach ($city  as $key => $value) {
+        echo "<tr><td>$key</td><td>$value</td></tr>";
     }
     echo "</table>";
 ?>
