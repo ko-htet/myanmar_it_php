@@ -7,7 +7,7 @@
         'Philadelphia, PA' =>'1,526,006',
         'Phoenix, AZ' =>'1,445,632',
         'San Antonio, TX' =>'1,327,407',
-        'San Diego, CA' =>'	1,307,402',
+        'San Diego, CA' =>'1,307,402',
         'Dallas, TX' =>'1,197,816',
         'San Jose, CA' =>'945,942',
         );
