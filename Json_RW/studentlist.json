@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Tested One",
+        "email": "testedone@gmail.com",
+        "gender": "Male",
+        "address": "Yangon",
+        "profile": "photo\/classic-shirt1.jpg"
+    },
+    {
+        "name": "Tested Two",
+        "email": "testedtwo@gmail.com",
+        "gender": "Female",
+        "address": "Mandalay",
+        "profile": "photo\/Capture6.PNG"
+    },
+    {
+        "name": "Tested Three",
+        "email": "testedthree@gmail.com",
+        "gender": "Male",
+        "address": "Yangon",
+        "profile": "photo\/lady-shoes2.PNG"
+    },
+    {
+        "name": "Tested Four",
+        "email": "testedfour@gmail.com",
+        "gender": "Female",
+        "address": "Mandalay",
+        "profile": "photo\/Capture9.PNG"
+    }
+]
