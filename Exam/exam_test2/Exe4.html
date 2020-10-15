@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exe4</title>
+		<script>
+			function addTwoNumbers(number1, number2){
+				var x = document.getElementById(number1).value;
+				var y = document.getElementById(number2).value;
+				var sum = 0;
+				sum = Number(x)+Number(y);
+				alert("SUM is: " + sum);
+			}
+		</script>
+	</head>
+<body>
+	<h1>Add two integer numbers using JavaScript.</h1>
+	<b>Enter first Number: </b><br>
+	<input type="text" id="num1"/><br>
+	<b>Enter second Number: </b><br>
+	<input type="text" id="num2"/><br><br>
+	<input type="button" id="btnSum" value="Calculate SUM" onClick="addTwoNumbers('num1','num2')"/>
+</body>
+</html>
