@@ -5,11 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exe1</title>
 </head>
+<style>
+    table {
+        background-color: #d3d3d3;
+        width: 900px;
+        height: 500px;
+    }
+</style>
 <body>
-    <table align="center">
-        <h2>Form Example</h2>
+    <table align="center" border="1" cellpadding="5">
+        <h1 align="center">Form Example</h1>
         <tr>
-            
+            <td><label for="fname">First Name*</label></td>
+            <td><input type="text" name="fname"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name*</label></td>
+            <td><input type="text" name="lname"></td>
+        </tr>
+        <tr>
+            <td><label for="psw">Password*</label></td>
+            <td><input type="psw" name="psw"></td>
+        </tr>
+        <tr>
+            <td><label for="cpassword">Confirm-password*</label></td>
+            <td><input type="cpassword" name="cpassword"></td>
+        </tr>
+        <tr>
+            <td><label for="hobbies">Enter your hobbies*</label></td>
+            <td>
+                <select name="hobbies">
+                    <option value="">Travelling</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email_noti">Notify by email:</label></td>
+            <td><input type="checkbox" name="email_noti" id="email_noti" checked></td>
+        </tr>
+        <tr>
+            <td><label>Gender*</label></td>
+            <td>
+                <input type="radio" name="male" value="Male" checked><label for="male">Male</label>
+                <input type="radio" name="female" value="Female"><label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address*</label>
+                <p>(Please fill your address in: "no, street, state, city")</p>
+            </td>
+            <td><textarea name="address" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit Form"></td>
+            <td><input type="submit" value="Clear Form"></td>
         </tr>
     </table>
 </body>
