@@ -1,0 +1,22 @@
+exam_test1
+    1. SELECT staffs.name as STAFF_NAME FROM staffs
+    2. SELECT DISTINCT department_id FROM staffs
+    3. SELECT * FROM `staffs` ORDER BY name
+    4. SELECT * FROM `staffs` ORDER BY name
+       SELECT * FROM `departments` ORDER BY name DESC
+    5. SELECT * FROM staffs WHERE name = "Kay Thwe"
+       SELECT * FROM staffs WHERE name = "Thae Su Wai"
+    6. SELECT * FROM staffs INNER JOIN departments ON staffs.deparment_id = departments.id WHERE departments.id = 1
+    7. SELECT * FROM staffs WHERE name LIKE "a%"
+       SELECT * FROM staffs WHERE name LIKE "%a"
+       SELECT * FROM staffs WHERE name LIKE "%a%"
+    8. SELECT * FROM staffs WHERE name LIKE "%e"
+    9. SELECT * FROM staffs WHERE salary BETWEEN 100000 AND 500000
+    10. SELECT * FROM staffs WHERE joindate BETWEEN '2014-01-01' AND '2014-12-31'
+    11. SELECT COUNT(*) AS totaladmin FROM staffs INNER JOIN departments ON staffs.deparment_id = departments.id WHERE departments.id = 6
+    12. SELECT COUNT(*) AS totaladmin FROM staffs INNER JOIN departments ON staffs.deparment_id = departments.id WHERE departments.id = 1
+    13. SELECT * FROM staffs LIMIT 5
+    14. SELECT salary FROM staffs ORDER BY salary DESC LIMIT 3
+    15. SELECT SUM(salary) as total_salaries FROM staffs
+    16. SELECT * FROM staffs RIGHT JOIN bonus ON staffs.id = bonus.staff_id
+    17. SELECT * FROM staffs RIGHT JOIN bonus ON staffs.id = bonus.staff_id WHERE bonus.staff_id = 2
