@@ -4,8 +4,7 @@ exam_test1
     3. SELECT * FROM `staffs` ORDER BY name
     4. SELECT * FROM `staffs` ORDER BY name
        SELECT * FROM `departments` ORDER BY name DESC
-    5. SELECT * FROM staffs WHERE name = "Kay Thwe"
-       SELECT * FROM staffs WHERE name = "Thae Su Wai"
+    5. SELECT * FROM staffs WHERE name IN ('Kay Thwe', 'Thae Su Wai')
     6. SELECT * FROM staffs INNER JOIN departments ON staffs.deparment_id = departments.id WHERE departments.id = 1
     7. SELECT * FROM staffs WHERE name LIKE "a%"
        SELECT * FROM staffs WHERE name LIKE "%a"
